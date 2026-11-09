@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Saya - Zaid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-card">
+        <header>
+            <div class="logo">ZAID.</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html" class="active">Tentang Saya</a></li>
+                    <li><a href="portofolio.html">Portofolio</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="page-header">
+                <h1>Tentang Saya</h1>
+                <p>Informasi biodata diri, latar belakang pendidikan, dan keahlian.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="info-section">
+                    <h3>Biodata Diri</h3>
+                    <div class="bio-list">
+                        <div class="bio-item">
+                            <span class="bio-label">Nama Lengkap</span>
+                            <span class="bio-val">Zaid Akmal Firdaus</span>
+                        </div>
+                        <div class="bio-item">
+                            <span class="bio-label">Tempat, Tanggal Lahir</span>
+                            <span class="bio-val">Bandung, 18 Februari 2010</span>
+                        </div>
+                        <div class="bio-item">
+                            <span class="bio-label">Agama</span>
+                            <span class="bio-val">Islam</span>
+                        </div>
+                        <div class="bio-item">
+                            <span class="bio-label">Pendidikan</span>
+                            <span class="bio-val">SMKN 4 Bandung (Rekayasa Perangkat Lunak)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-section">
+                    <h3>Keahlian & Minat</h3>
+                    <div class="skill-card">
+                        <h4>Teknologi & Coding</h4>
+                        <p>Menguasai logika pemrograman dengan pengalaman di Java (Java Swing, Maven), HTML, CSS, dan C++.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h4>Public Speaking</h4>
+                        <p>Mampu berkomunikasi, mempresentasikan ide, dan berkolaborasi dengan baik dalam tim.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h4>Pencak Silat</h4>
+                        <p>Seni bela diri tradisional untuk melatih pertahanan diri, kedisiplinan, dan fokus tinggi.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- footer -->
+        <footer>
+            <span>&copy; 2026 Zaid Akmal Firdaus</span>
+            <button class="music-btn" id="musicToggle">
+                <span id="musicIcon">▶</span>
+                <span id="musicText">Putar Musik</span>
+            </button>
+        </footer>
+    </div>
+
+            <!-- musik -->
+        <audio id="bgMusic" loop preload="auto">
+            <source src="Виктор Цой - Спокойная ночь (оригинальный инструментал) (Kino Instrumental).mp3" type="audio/mpeg">
+        </audio>
+
+        <script src="app.js"></script>
+    </body>
+</html>
