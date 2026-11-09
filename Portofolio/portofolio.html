@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Zaid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-card">
+        <header>
+            <div class="logo">ZAID.</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang Saya</a></li>
+                    <li><a href="portofolio.html" class="active">Portofolio</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="page-header">
+                <h1>Portofolio Proyek</h1>
+                <p>Kumpulan proyek coding mandiri dan aplikasi yang pernah saya kembangkan.</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Card Proyek 1 -->
+                <div class="project-card">
+                    <div>
+                        <h3>The End Of The Day</h3>
+                        <p>Sebuah proyek game desktop bertema survival yang dikembangkan menggunakan bahasa Java, Java Swing (GUI), dan Maven.</p>
+                    </div>
+                    <a href="proyek-1.html" class="project-link">Lihat Detail Proyek &rarr;</a>
+                </div>
+
+                <!-- Card Proyek 2 -->
+                <div class="project-card">
+                    <div>
+                        <h3>Latihan Logika & Algoritma</h3>
+                        <p>Kumpulan berbagai skrip dan program kecil lintas bahasa (seperti C++ dan Java) untuk melatih pemecahan masalah algoritma.</p>
+                    </div>
+                    <a href="proyek-2.html" class="project-link">Lihat Detail Proyek &rarr;</a>
+                </div>
+
+                <!-- Card Proyek 3 -->
+                <div class="project-card">
+                    <div>
+                        <h3>Website Portofolio Statis</h3>
+                        <p>Proyek pengembangan antarmuka web modern berbasis HTML5 dan CSS3 murni dengan fokus pada kerapian struktur dan navigasi.</p>
+                    </div>
+                    <a href="proyek-3.html" class="project-link">Lihat Detail Proyek &rarr;</a>
+                </div>
+            </div>
+        </main>
+
+        <!-- footer -->
+        <footer>
+            <span>&copy; 2026 Zaid Akmal Firdaus</span>
+            <button class="music-btn" id="musicToggle">
+                <span id="musicIcon">▶</span>
+                <span id="musicText">Putar Musik</span>
+            </button>
+        </footer>
+    </div>
+
+            <!-- musik -->
+        <audio id="bgMusic" loop preload="auto">
+            <source src="Виктор Цой - Спокойная ночь (оригинальный инструментал) (Kino Instrumental).mp3" type="audio/mpeg">
+        </audio>
+
+        <script src="app.js"></script>
+    </body>
+</html>

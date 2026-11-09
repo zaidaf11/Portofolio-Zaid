@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokumentasi Proyek - The End Of The Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-card">
+        <header>
+            <div class="logo">ZAID.</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang Saya</a></li>
+                    <li><a href="portofolio.html" class="active">Portofolio</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <a href="portofolio.html" class="back-btn">&larr; Kembali ke Portofolio</a>
+
+            <div class="page-header">
+                <h1>The End Of The Day</h1>
+                <p>Proyek Desktop Game Development bertema Survival</p>
+                <div class="tech-tags">
+                    <span class="tag">Java</span>
+                    <span class="tag">Java Swing (GUI)</span>
+                    <span class="tag">Maven</span>
+                    <span class="tag">OOP</span>
+                </div>
+            </div>
+
+            <div class="project-detail-content">
+                <div class="detail-block">
+                    <h2>Deskripsi Proyek</h2>
+                    <p>
+                        Proyek ini adalah game survival berbasis desktop di mana pemain harus bertahan hidup dari berbagai rintangan. 
+                        Sistem dikembangkan secara terstruktur menggunakan konsep Pemrograman Berorientasi Objek (OOP) di Java 
+                        dengan antarmuka grafik berbasis Java Swing.
+                    </p>
+                </div>
+
+                <div class="detail-block">
+                    <h2>Dokumentasi & Screenshot</h2>
+                    <div class="screenshot-grid">
+                        <div class="screenshot-item"> 
+                            <img src="TheEndOfTheDay (3).png" alt="Screenshot Game The End Of The Day">
+                            <img src="TheEndOfTheDay (1).png" alt="Screenshot Game The End Of The Day">
+                            <img src="TheEndOfTheDay (2).png" alt="Screenshot Game The End Of The Day">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- footer -->
+        <footer>
+            <span>&copy; 2026 Zaid Akmal Firdaus</span>
+            <button class="music-btn" id="musicToggle">
+                <span id="musicIcon">▶</span>
+                <span id="musicText">Putar Musik</span>
+            </button>
+        </footer>
+    </div>
+
+            <!-- musik -->
+        <audio id="bgMusic" loop preload="auto">
+            <source src="Виктор Цой - Спокойная ночь (оригинальный инструментал) (Kino Instrumental).mp3" type="audio/mpeg">
+        </audio>
+
+        <script src="app.js"></script>
+    </body>
+</html>
