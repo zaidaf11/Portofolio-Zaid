@@ -95,7 +95,7 @@ nav ul li a.active {
     font-size: 0.9rem;
 }
 
-/* --- beranda (Kiri & Kanan) --- */
+/* --- beranda (Kiri & Kanan rapi di dalam card) --- */
 .hero-content {
     margin: auto 0;
     padding: 20px 0;
@@ -116,18 +116,21 @@ nav ul li a.active {
     letter-spacing: 1px;
     margin-bottom: 10px;
     color: #ffffff;
+    margin-top: 0; /* Reset agar tidak turun ke bawah */
 }
 
 .hero-text p {
     color: #8e8e93;
     font-size: 1.1rem;
     letter-spacing: 1px;
+    margin-right: 0; /* Reset margin lama */
 }
 
 .hero-image {
     width: 240px;
     height: 240px;
     flex-shrink: 0;
+    transform: none; /* Menghilangkan efek geser yang bikin keluar card */
 }
 
 .hero-image img {
